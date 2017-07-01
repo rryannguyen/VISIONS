@@ -1,0 +1,341 @@
+/*body {
+	background-image: url("images/paper.jpg");
+}*/
+
+
+
+
+.nav {
+    height: 69px;
+    width: 100%;  
+    background-color: rgba(255,255,255, 0.8); 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 15px;
+    min-width: 960px;
+    font-family: 'Avenir Book';
+    src: url('../fonts/Avenir Book.otf');
+    border-bottom: solid;
+    border-width: 1.5px;
+    border-color: lightgray;
+    z-index: 9;
+}
+
+
+}
+.nav img {
+    cursor: pointer;
+}
+.nav .content {
+    height: 72px;
+    line-height: 72px;
+}
+
+.nav .logo {
+    float: left;
+}
+
+.nav ul {
+    float: right;
+    margin: 0px;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.nav li:hover {
+    
+}
+.nav li.active {
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+}
+.nav li a {
+    text-decoration: none;
+    color: gray;
+}
+.nav li a:hover {
+    color: darkgrey;
+}
+
+#pageBody{ 
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#issue {
+}
+
+.frontlogo {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.smallLogo {
+    width: 200px;
+    padding-top: 30px;
+}
+
+.issu {
+    width: 100%;
+    height: 500px;
+    background-image: url("images/cover.jpg");
+    background-size: 100%;
+
+}
+
+.subscribe {
+    width: 100%;
+    height: 500px;
+    background-image: url("images/subscribe.jpg");
+    background-size: cover;
+}
+
+.issueIMG {
+    width: 100%;
+}
+
+.issu:hover {
+    background-image: url("images/coverhover.jpg");
+     -webkit-transition: visibility opacity 0.2s;
+
+}
+
+.type {
+    font-family: "Avenir-Medium";
+    src: url('../fonts/Avenir-Medium.otf');
+    font-size: 10px;
+    color: gray;
+    padding-top: 30px;
+}
+  
+.typeLit{
+    font-family: "Avenir-Medium";
+    src: url('../fonts/Avenir-Medium.otf');
+    font-size: 12px;
+    color: gray;
+     width: 400px;
+}
+
+
+.line {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 100%;
+}
+
+.Newsletter {
+    font-family: "Avenir Book";
+    src: url('../fonts/TimesModern-Bold.otf');
+    font-size: 30px; 
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.inputbox {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 38%;
+}
+
+input { 
+    height: 35px;
+    width: 220px;
+    font-size: 30px;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Avenir-Medium";
+    src: url('../fonts/Avenir-Medium.otf');
+    background-color: rgba(255,255,255, 0.1);
+    border: none;
+    color: white;
+    outline:none;
+    margin-right: auto;
+    position: relative;
+}
+
+input:focus {
+    outline:none;
+}
+
+.optionsArt {
+    padding-top: 30px ;
+}
+
+.options p {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.optionsArt p {
+    margin-right: 30px;
+}
+
+
+.postTitle {
+    font-size:50px;
+    font-family: "Avenir Book";
+    padding-top: 30px;
+}
+
+.postTitleLit {
+    font-size:50px;
+    font-family: "Avenir Book";
+ 
+}
+
+#textBody {
+    width: 70%;
+    font-family: "Avenir Book";
+}
+
+.postBodyTitle {
+    font-family: "Avenir Book";
+    font-size: 20px;
+}
+
+.postBodyIMG {
+    width: 100%;
+}
+
+.columns {
+	display: inline-block;
+	padding-bottom: 30px;
+	vertical-align:top;
+}
+
+.col {
+	width: 300px;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.colLit {
+    width: 450px;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.textBlock {
+	padding: 15px;
+}
+
+.textBlock:hover {
+	background-color: #F5F3F0;
+}
+
+.blockTitle {
+	font-family: "Avenir-Medium";
+    font-size: 20px;
+}
+
+.blockText {
+	font-family: "Avenir Book";
+    font-size: 12px;
+}
+
+.load {
+	font-family: "Avenir Book";
+    font-size: 20px;
+    text-align: center;
+}
+
+.load a {
+	text-decoration: none;
+	font-size: 15px;
+	color: gray;
+} 
+
+.load a:hover {
+	color: darkgray;
+}
+
+.blockText a {
+	text-decoration: none;
+	font-size: 10px;
+	color: #efa9a9;
+}
+
+.imgBlock {
+	width: 100%;
+}
+
+.imgBlockArt {
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#slogan {
+	text-align: center;
+	color: gray; 
+	font-family: 'Futura'l;
+	font-size: 30px;
+	margin-top: 300px;
+}
+
+.footer {
+    height: 45px;
+    width: 100%;  
+   	background-color: rgba(255,255,255, 0.8);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    color: gray;
+    font-size: 10px;
+    z-index: 1000;
+    min-width: 960px;
+    font-family: 'Avenir Book';
+    border-top: solid;
+    border-width: 1.5px;
+    border-color: lightgray;
+}
+
+.footer ul {
+    float: left;
+    margin: 0px;
+}
+
+.footer li {
+    display: inline;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.footer li:hover {
+    color: #ccc;
+}
+
+.logo {
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    width: 100px;
+    height: auto; 
+    position: relative;
+    text-align: center;
+    display: inline-block;
+   
+}
